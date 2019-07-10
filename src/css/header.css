@@ -137,7 +137,7 @@
 
 .floor__3__inner{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     width: 100%;    
 }

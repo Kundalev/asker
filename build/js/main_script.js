@@ -1,0 +1,1 @@
+!function(){$(".accordion").attr("data-accordion");$(".accordion-header").on("click",function(){$(this).next(".accordion-body").not(":animated").slideToggle()})}(),$(".slider").slick({dots:!0,autoplay:!0,speed:500});
