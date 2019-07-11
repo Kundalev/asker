@@ -36,7 +36,7 @@ section{
 
 .accordion-header div{
 	margin-left: 20px;
-    padding-top: 1.67rem;
+    padding-top: 1.8rem;
     text-transform: uppercase;
 }
 
@@ -75,7 +75,6 @@ section{
 
 .accordion__ul__1 ul, .accordion__ul__2 ul, .accordion__ul__3 ul{
     border-top: 15px solid #eeeeee;
-    border-bottom: 15px solid #eeeeee;
     
 }
 
@@ -212,6 +211,9 @@ main{
 
 .section__2__menu ul li:nth-child(1){
     background-image: url(/img/floor__3__bg.png);
+}
+
+.section__2__menu ul li p a:nth-child(1){
     color: #ffffff;
 }
 
@@ -220,7 +222,6 @@ main{
 }
 
 .section__2__menu ul li{
-    color: #666666;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -231,6 +232,11 @@ main{
     padding-right: 19px;
     padding-bottom: 15px;
 }
+
+.section__2__menu ul li a{
+    color: #666666;
+}
+
 
 .gods__img{
     display: flex;
@@ -266,4 +272,9 @@ main{
     justify-content: space-between;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section__2{
+    border-bottom: 1px solid #aaaaaa;
 }
