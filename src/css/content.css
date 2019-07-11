@@ -20,8 +20,7 @@ section{
 }
 
 .accordion{
-	border: 1px solid #ddd;
-	border-bottom: none;
+	border-bottom: 3px solid #eeeeee;
 	padding-left: 0;
 	max-width: 285px;
 }
@@ -185,6 +184,10 @@ main{
     height: 200px;
 }
 
+.img__menu__inner{
+    
+}
+
 .img__menu__inner p{
     display: flex;
     justify-content: center;
@@ -222,11 +225,45 @@ main{
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    border: 1px solid #aaaaaa;
     background-color: #ececec;
     padding-top: 18px;
     padding-left: 19px;
     padding-right: 19px;
     padding-bottom: 15px;
+}
 
+.gods__img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.gods__img__inner{
+    margin-bottom: 32px;
+}
+
+.gods__img__inner p:nth-child(2){
+    color: #666666;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.gods__img__inner p:nth-child(3){
+    color: #73aaab;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
 }
